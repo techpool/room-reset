@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <meta name="theme-color" content="#f8f5e9" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self' file:; style-src 'self' file: 'unsafe-inline'; img-src 'self' file: data:; font-src 'self' file:; media-src 'none'; connect-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <title>Room Reset</title>
+    <link rel="icon" href="assets/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="model.js" defer></script>
+    <script src="game.js" defer></script>
+  </head>
+  <body>
+    <header class="mast">
+      <div class="brand">
+        <img src="assets/icon.png" alt="" width="40" height="40" /><span>Room Reset</span>
+      </div>
+      <nav class="modes" aria-label="Game mode">
+        <button id="practice" aria-pressed="true">Practice</button
+        ><button id="folder" aria-pressed="false">My folder</button>
+      </nav>
+      <button
+        class="quiet sound"
+        id="sound"
+        aria-label="Turn sound on"
+        title="Turn sound on"
+        aria-pressed="false"
+      >
+        <span aria-hidden="true">♫</span>
+      </button>
+    </header>
+    <main>
+      <section class="heading" aria-label="Room status">
+        <div>
+          <div class="overline" id="roundLabel">ROUND 01</div>
+          <h1 id="title">The sunroom</h1>
+        </div>
+        <div class="progress" id="status">
+          <span class="progress-mark" aria-hidden="true">✧</span><span id="count">6 to sort</span>
+        </div>
+      </section>
+      <div class="play-layout">
+        <section class="board-card" aria-label="Interactive room">
+          <div class="scene" id="scene" role="group" aria-label="Clutter on the floor">
+            <div class="scene-stage">
+              <img
+                id="backdrop"
+                class="backdrop"
+                src="assets/room.webp"
+                alt="Illustrated sunlit room with a desk, a cabinet and a rug"
+                draggable="false"
+              />
+              <div id="floor"></div>
+            </div>
+            <div id="celebration" class="celebration" hidden>
+              <span aria-hidden="true">✦</span> Room reset!
+            </div>
+          </div>
+          <div class="scene-caption">
+            <span class="hint" id="hint">Pick an object, then choose its tray.</span>
+            <select id="area" aria-label="Choose part of the room to sweep">
+              <option value="">Whole room</option>
+              <option value="desk">Desk corner</option>
+              <option value="rug">Rug</option>
+              <option value="cabinet">Cabinet</option>
+            </select>
+            <button id="list" class="inline-button" hidden>View files</button>
+          </div>
+        </section>
+        <aside class="tray-panel" aria-label="Sorting controls">
+          <div class="tray-head">
+            <h2>Sorting tray</h2>
+            <button
+              id="undo"
+              class="iconbutton"
+              aria-label="Undo last tidy"
+              title="Undo last tidy"
+              disabled
+            >
+              <span aria-hidden="true">↶</span>
+            </button>
+          </div>
+          <div class="trays" id="trays"></div>
+          <div class="action-area">
+            <button class="primary" id="sweep">
+              <span aria-hidden="true" class="sweep-mark">✦</span
+              ><span id="sweepLabel">Sweep room</span>
+            </button>
+            <div id="scopeLine" class="scope-line" hidden>
+              <button id="resetScope">Show whole room</button>
+            </div>
+          </div>
+          <div id="folderTools" class="folder-tools" hidden>
+            <button id="repick">Change folder</button
+            ><button id="refresh" aria-label="Rescan folder" title="Rescan folder">↻</button
+            ><button id="empty" hidden>Empty staging</button>
+          </div>
+        </aside>
+      </div>
+    </main>
+    <div id="toast" role="status" aria-live="polite" class="toast" hidden></div>
+    <dialog id="sheet" aria-labelledby="sheetTitle">
+      <div class="sheet-inner">
+        <div class="sheet-head">
+          <h2 id="sheetTitle"></h2>
+          <button class="iconbutton" id="closeSheet" aria-label="Close dialog">×</button>
+        </div>
+        <div id="sheetBody"></div>
+        <div class="sheet-actions" id="sheetActions"></div>
+      </div>
+    </dialog>
+  </body>
+</html>

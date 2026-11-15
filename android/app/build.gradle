@@ -1,0 +1,35 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'org.roomreset.game'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'org.roomreset.game'
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName "1.0.0"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+    sourceSets.main.assets.srcDir '../../web'
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+// Both the launcher and game use the same generated icon.
+def iconRes = layout.buildDirectory.dir('generated/roomIcon')
+tasks.register('prepareRoomIcon', Copy) {
+    from('../../web/assets/icon.png')
+    into(iconRes.map { it.dir('drawable-nodpi') })
+    rename { 'room_icon.png' }
+}
+android.sourceSets.main.res.srcDir(iconRes)
+tasks.named('preBuild').configure { dependsOn('prepareRoomIcon') }
+
+dependencies {
+    androidTestImplementation 'androidx.test:runner:1.6.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+}

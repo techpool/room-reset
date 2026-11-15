@@ -1,0 +1,90 @@
+name: RoomReset
+options:
+  deploymentTarget:
+    macOS: '14.0'
+    iOS: '17.0'
+settings:
+  base:
+    PRODUCT_NAME: Room Reset
+    SWIFT_VERSION: '5.0'
+    PRODUCT_MODULE_NAME: RoomReset
+    GENERATE_INFOPLIST_FILE: YES
+    INFOPLIST_KEY_CFBundleDisplayName: Room Reset
+    MARKETING_VERSION: '1.0'
+    CURRENT_PROJECT_VERSION: 1
+    ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+targetTemplates:
+  Room:
+    type: application
+    sources:
+      - Sources
+      - path: ../web
+        type: folder
+        buildPhase: resources
+      - Assets.xcassets
+targets:
+  RoomResetMac:
+    templates: [Room]
+    platform: macOS
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: org.roomreset.game.mac
+      CODE_SIGN_ENTITLEMENTS: RoomReset.entitlements
+      CODE_SIGN_IDENTITY: '-'
+      ENABLE_HARDENED_RUNTIME: YES
+      INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
+  RoomResetIOS:
+    templates: [Room]
+    platform: iOS
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: org.roomreset.game.ios
+      TARGETED_DEVICE_FAMILY: '1,2'
+      INFOPLIST_KEY_UILaunchScreen_Generation: YES
+      INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+      INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight
+      INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight
+  MacRoomTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources: [HostTests]
+    dependencies:
+      - target: RoomResetMac
+    settings:
+      TEST_HOST: $(BUILT_PRODUCTS_DIR)/Room Reset.app/Contents/MacOS/Room Reset
+      PRODUCT_NAME: MacRoomTests
+      PRODUCT_MODULE_NAME: MacRoomTests
+      PRODUCT_BUNDLE_IDENTIFIER: org.roomreset.tests.mac
+  IOSRoomTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [HostTests]
+    dependencies:
+      - target: RoomResetIOS
+    settings:
+      TEST_HOST: $(BUILT_PRODUCTS_DIR)/Room Reset.app/Room Reset
+      PRODUCT_NAME: IOSRoomTests
+      PRODUCT_MODULE_NAME: IOSRoomTests
+      PRODUCT_BUNDLE_IDENTIFIER: org.roomreset.tests.ios
+  IOSPickerTests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [PickerTests]
+    dependencies:
+      - target: RoomResetIOS
+    settings:
+      PRODUCT_NAME: IOSPickerTests
+      PRODUCT_MODULE_NAME: IOSPickerTests
+      PRODUCT_BUNDLE_IDENTIFIER: org.roomreset.tests.picker
+      TEST_TARGET_NAME: RoomResetIOS
+schemes:
+  RoomResetMac:
+    build:
+      targets:
+        RoomResetMac: all
+    test:
+      targets: [MacRoomTests]
+  RoomResetIOS:
+    build:
+      targets:
+        RoomResetIOS: all
+    test:
+      targets: [IOSRoomTests, IOSPickerTests]

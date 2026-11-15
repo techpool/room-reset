@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A700DB7BCE91EFD4ED77FF3 /* RoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EC0702DC608237F34F3C51 /* RoomApp.swift */; };
+		19BD52BFB30B475229E29C63 /* RoomFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE66E37AF059DA2A4F6326A1 /* RoomFolder.swift */; };
+		2AD877AF07138EF8E499BF7E /* web in Resources */ = {isa = PBXBuildFile; fileRef = 58F2C845E2D258ADFBEB25F8 /* web */; };
+		463FBF1A47069517C153BCFD /* EmbeddedGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DBFFEA20869D6781FC9178 /* EmbeddedGameTests.swift */; };
+		611D7B73C8E48EACC6C2D91A /* RoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EC0702DC608237F34F3C51 /* RoomApp.swift */; };
+		7DEFFDC47DB811CE1BA9D04C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A166CFD911112E85C107D2 /* Assets.xcassets */; };
+		808BC368B3A19C05C7D45E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A166CFD911112E85C107D2 /* Assets.xcassets */; };
+		8B5D4697E7F16BBCF646ED11 /* FolderPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C0F7F81F46EDAD4A005F67 /* FolderPickerTests.swift */; };
+		984E4A46AB9428D4A65D00B4 /* RoomFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE66E37AF059DA2A4F6326A1 /* RoomFolder.swift */; };
+		C7F80B41553460BD870B6F2B /* web in Resources */ = {isa = PBXBuildFile; fileRef = 58F2C845E2D258ADFBEB25F8 /* web */; };
+		FB5C1C336FDF2AB45DEC2A08 /* EmbeddedGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DBFFEA20869D6781FC9178 /* EmbeddedGameTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71CBFAF20B58B857A8E3718C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C310BDDBBE15A879C7F94C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C70E70C75D2AF2273728A9DE;
+			remoteInfo = RoomResetIOS;
+		};
+		CCCBFE0350AA4A09C41E7AF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C310BDDBBE15A879C7F94C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C70E70C75D2AF2273728A9DE;
+			remoteInfo = RoomResetIOS;
+		};
+		F5383F739C28D3E11CA78CB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C310BDDBBE15A879C7F94C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FA683D47FA9DC9CC7927F48;
+			remoteInfo = RoomResetMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EC0702DC608237F34F3C51 /* RoomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomApp.swift; sourceTree = "<group>"; };
+		15A166CFD911112E85C107D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DD4B00E448DAE0BC4AE40EB /* IOSPickerTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = IOSPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F2C845E2D258ADFBEB25F8 /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; name = web; path = ../web; sourceTree = SOURCE_ROOT; };
+		6B4A96218448BF7B0711EE90 /* MacRoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01CC86AF6B10924B85FE36E /* IOSRoomTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = IOSRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC8CFD489A5A8601BB0F1CF /* RoomResetIOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RoomResetIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8DBFFEA20869D6781FC9178 /* EmbeddedGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedGameTests.swift; sourceTree = "<group>"; };
+		CDC034E1308C5AC67F2B989C /* RoomResetMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomResetMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE66E37AF059DA2A4F6326A1 /* RoomFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomFolder.swift; sourceTree = "<group>"; };
+		F0C0F7F81F46EDAD4A005F67 /* FolderPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderPickerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		38229FB56B005B6B8B00CBDD /* HostTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8DBFFEA20869D6781FC9178 /* EmbeddedGameTests.swift */,
+			);
+			path = HostTests;
+			sourceTree = "<group>";
+		};
+		4860D2E1CAA021D85EAAD34B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				00EC0702DC608237F34F3C51 /* RoomApp.swift */,
+				DE66E37AF059DA2A4F6326A1 /* RoomFolder.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D5173518B1EB624F25EC266B = {
+			isa = PBXGroup;
+			children = (
+				15A166CFD911112E85C107D2 /* Assets.xcassets */,
+				58F2C845E2D258ADFBEB25F8 /* web */,
+				38229FB56B005B6B8B00CBDD /* HostTests */,
+				FF8C3BA77919E72FCA255A70 /* PickerTests */,
+				4860D2E1CAA021D85EAAD34B /* Sources */,
+				F4CC198BB985608AE27D928C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4CC198BB985608AE27D928C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DD4B00E448DAE0BC4AE40EB /* IOSPickerTests.xctest */,
+				B01CC86AF6B10924B85FE36E /* IOSRoomTests.xctest */,
+				6B4A96218448BF7B0711EE90 /* MacRoomTests.xctest */,
+				BEC8CFD489A5A8601BB0F1CF /* RoomResetIOS.app */,
+				CDC034E1308C5AC67F2B989C /* RoomResetMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8C3BA77919E72FCA255A70 /* PickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0C0F7F81F46EDAD4A005F67 /* FolderPickerTests.swift */,
+			);
+			path = PickerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FA683D47FA9DC9CC7927F48 /* RoomResetMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE4A827A9AB9CF53B281C4AE /* Build configuration list for PBXNativeTarget "RoomResetMac" */;
+			buildPhases = (
+				3F54F8260231D6AB0F948921 /* Sources */,
+				89CD060439295B3B43F2B759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoomResetMac;
+			packageProductDependencies = (
+			);
+			productName = RoomResetMac;
+			productReference = CDC034E1308C5AC67F2B989C /* RoomResetMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E26F8E68578FE4C660B9178 /* IOSRoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72BC23958DC5F1EBF188B97E /* Build configuration list for PBXNativeTarget "IOSRoomTests" */;
+			buildPhases = (
+				845448C191FD14B420A4C04A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78A323E973EACB6D94056788 /* PBXTargetDependency */,
+			);
+			name = IOSRoomTests;
+			packageProductDependencies = (
+			);
+			productName = IOSRoomTests;
+			productReference = B01CC86AF6B10924B85FE36E /* IOSRoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7124B20D14322626507F3CB7 /* MacRoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8F784E84EF5579CC8FF3482 /* Build configuration list for PBXNativeTarget "MacRoomTests" */;
+			buildPhases = (
+				3316F227AE5D33590D28DDBD /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43B8850684E4C5BBBEBC0928 /* PBXTargetDependency */,
+			);
+			name = MacRoomTests;
+			packageProductDependencies = (
+			);
+			productName = MacRoomTests;
+			productReference = 6B4A96218448BF7B0711EE90 /* MacRoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC2AA979BEBE5FDECA7082A3 /* IOSPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F62C68345A15D132820E8521 /* Build configuration list for PBXNativeTarget "IOSPickerTests" */;
+			buildPhases = (
+				3AB4393D2C53A2B6126BDF09 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5103116FDF736E8C3709C58E /* PBXTargetDependency */,
+			);
+			name = IOSPickerTests;
+			packageProductDependencies = (
+			);
+			productName = IOSPickerTests;
+			productReference = 2DD4B00E448DAE0BC4AE40EB /* IOSPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C70E70C75D2AF2273728A9DE /* RoomResetIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B14F5533D5E890C0438E563 /* Build configuration list for PBXNativeTarget "RoomResetIOS" */;
+			buildPhases = (
+				8C3D5324903EC9F60BCCB6F1 /* Sources */,
+				291BFABC433C099C58D681A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoomResetIOS;
+			packageProductDependencies = (
+			);
+			productName = RoomResetIOS;
+			productReference = BEC8CFD489A5A8601BB0F1CF /* RoomResetIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2C310BDDBBE15A879C7F94C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AC2AA979BEBE5FDECA7082A3 = {
+						TestTargetID = C70E70C75D2AF2273728A9DE;
+					};
+				};
+			};
+			buildConfigurationList = 864B91543C884D74415B2FFB /* Build configuration list for PBXProject "RoomReset" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D5173518B1EB624F25EC266B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F4CC198BB985608AE27D928C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FA683D47FA9DC9CC7927F48 /* RoomResetMac */,
+				C70E70C75D2AF2273728A9DE /* RoomResetIOS */,
+				7124B20D14322626507F3CB7 /* MacRoomTests */,
+				1E26F8E68578FE4C660B9178 /* IOSRoomTests */,
+				AC2AA979BEBE5FDECA7082A3 /* IOSPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		291BFABC433C099C58D681A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808BC368B3A19C05C7D45E31 /* Assets.xcassets in Resources */,
+				2AD877AF07138EF8E499BF7E /* web in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89CD060439295B3B43F2B759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DEFFDC47DB811CE1BA9D04C /* Assets.xcassets in Resources */,
+				C7F80B41553460BD870B6F2B /* web in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3316F227AE5D33590D28DDBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5C1C336FDF2AB45DEC2A08 /* EmbeddedGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB4393D2C53A2B6126BDF09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5D4697E7F16BBCF646ED11 /* FolderPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F54F8260231D6AB0F948921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A700DB7BCE91EFD4ED77FF3 /* RoomApp.swift in Sources */,
+				19BD52BFB30B475229E29C63 /* RoomFolder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845448C191FD14B420A4C04A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463FBF1A47069517C153BCFD /* EmbeddedGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C3D5324903EC9F60BCCB6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611D7B73C8E48EACC6C2D91A /* RoomApp.swift in Sources */,
+				984E4A46AB9428D4A65D00B4 /* RoomFolder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43B8850684E4C5BBBEBC0928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FA683D47FA9DC9CC7927F48 /* RoomResetMac */;
+			targetProxy = F5383F739C28D3E11CA78CB0 /* PBXContainerItemProxy */;
+		};
+		5103116FDF736E8C3709C58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C70E70C75D2AF2273728A9DE /* RoomResetIOS */;
+			targetProxy = 71CBFAF20B58B857A8E3718C /* PBXContainerItemProxy */;
+		};
+		78A323E973EACB6D94056788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C70E70C75D2AF2273728A9DE /* RoomResetIOS */;
+			targetProxy = CCCBFE0350AA4A09C41E7AF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		005F73977530B316D2AF3390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.roomreset.tests.mac;
+				PRODUCT_MODULE_NAME = MacRoomTests;
+				PRODUCT_NAME = MacRoomTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Room Reset.app/Contents/MacOS/Room Reset";
+			};
+			name = Release;
+		};
+		12124B53A737419077865B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Room Reset";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = RoomReset;
+				PRODUCT_NAME = "Room Reset";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		16A60C3EE4FF08F7C45B0ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.roomreset.game.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A6DE9DD8B5AF0C5EEFF3819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.roomreset.tests.picker;
+				PRODUCT_MODULE_NAME = IOSPickerTests;
+				PRODUCT_NAME = IOSPickerTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoomResetIOS;
+			};
+			name = Release;
+		};
+		55BC08B6FF310BD05A514621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RoomReset.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.roomreset.game.mac;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5B2E5476E3A799B5C40A9E2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.roomreset.tests.ios;
+				PRODUCT_MODULE_NAME = IOSRoomTests;
+				PRODUCT_NAME = IOSRoomTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Room Reset.app/Room Reset";
+			};
+			name = Release;
+		};
+		60B310625C88B09F3F618D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.roomreset.tests.ios;
+				PRODUCT_MODULE_NAME = IOSRoomTests;
+				PRODUCT_NAME = IOSRoomTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Room Reset.app/Room Reset";
+			};
+			name = Debug;
+		};
+		798C6CD32AB316CABFA9D48C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.roomreset.tests.mac;
+				PRODUCT_MODULE_NAME = MacRoomTests;
+				PRODUCT_NAME = MacRoomTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Room Reset.app/Contents/MacOS/Room Reset";
+			};
+			name = Debug;
+		};
+		B4AF7FAB39395EC6BB377BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RoomReset.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.roomreset.game.mac;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BAC6575E4F930AD0FD380F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.roomreset.tests.picker;
+				PRODUCT_MODULE_NAME = IOSPickerTests;
+				PRODUCT_NAME = IOSPickerTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoomResetIOS;
+			};
+			name = Debug;
+		};
+		E6D7EEBC8A4FEAC972955211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Room Reset";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_MODULE_NAME = RoomReset;
+				PRODUCT_NAME = "Room Reset";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F1CC45D1181EC466AE6C487A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.roomreset.game.ios;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72BC23958DC5F1EBF188B97E /* Build configuration list for PBXNativeTarget "IOSRoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60B310625C88B09F3F618D98 /* Debug */,
+				5B2E5476E3A799B5C40A9E2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		864B91543C884D74415B2FFB /* Build configuration list for PBXProject "RoomReset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12124B53A737419077865B07 /* Debug */,
+				E6D7EEBC8A4FEAC972955211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8B14F5533D5E890C0438E563 /* Build configuration list for PBXNativeTarget "RoomResetIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CC45D1181EC466AE6C487A /* Debug */,
+				16A60C3EE4FF08F7C45B0ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D8F784E84EF5579CC8FF3482 /* Build configuration list for PBXNativeTarget "MacRoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798C6CD32AB316CABFA9D48C /* Debug */,
+				005F73977530B316D2AF3390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F62C68345A15D132820E8521 /* Build configuration list for PBXNativeTarget "IOSPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC6575E4F930AD0FD380F6B /* Debug */,
+				2A6DE9DD8B5AF0C5EEFF3819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FE4A827A9AB9CF53B281C4AE /* Build configuration list for PBXNativeTarget "RoomResetMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BC08B6FF310BD05A514621 /* Debug */,
+				B4AF7FAB39395EC6BB377BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2C310BDDBBE15A879C7F94C /* Project object */;
+}
