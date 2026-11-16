@@ -2,6 +2,8 @@
 
 A little room to tidy on macOS, iOS and Android. Drag the camera, books and loose papers off the floor and into their trays. Finish the sunroom to play by moonlight.
 
+[Download Room Reset for macOS, iOS, or Android](https://github.com/techpool/room-reset/releases/latest)
+
 ![The playable sunroom with six loose objects and four sorting trays](docs/sunroom.webp)
 
 ## Play
